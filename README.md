@@ -1,4 +1,4 @@
-# ZentroMart VoiceOps — 2026 Capstone Submission
+# ZentroMart VoiceOps — 2026
 
 A support agent over the **synthetic** ZentroMart dataset, with an independent prompt-only baseline, policy-grounded retrieval, verified mock order lookups, multi-turn escalation handling, and Gnani-only voice input/output. The interactive microphone demo is built with Streamlit and the LLM client supports Groq's OpenAI-compatible API.
 
