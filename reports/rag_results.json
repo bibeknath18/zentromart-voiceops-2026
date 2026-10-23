@@ -1,0 +1,11 @@
+{
+  "total": 52,
+  "live_responses": 52,
+  "accuracy": null,
+  "retrieval": {
+    "evaluated_count": 47,
+    "mean_gold_section_recall_at_5": 0.648936170212766,
+    "note": "Exploratory KB section retrieval metric, not answer quality or official grade; some IDs might be non-KB or require different evidence handling"
+  },
+  "note": "Extractive preview is NOT genuine generated RAG answer evaluation"
+}

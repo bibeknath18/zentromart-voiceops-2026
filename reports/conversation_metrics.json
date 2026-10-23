@@ -1,0 +1,6 @@
+{
+  "conversations": 23,
+  "turns": 96,
+  "decision_exact_matches": 61,
+  "note": "Deterministic offline decisions with tickets disabled to avoid effects; not a live LLM multi-turn test."
+}

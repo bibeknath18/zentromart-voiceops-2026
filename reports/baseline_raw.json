@@ -1,0 +1,366 @@
+[
+  {
+    "id": "PQ0002",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to product or order details, so I can’t confirm whether SKU ELE‑0012 is covered by the Assured program. Could you share your order number or any additional details about the purchase? That will help me guide you on how to proceed with a claim.",
+    "error": null,
+    "reference_answer": "Haan, 12 mahine ki Assured warranty hai; claim app mein My Orders se karein."
+  },
+  {
+    "id": "PQ0003",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to refund policies or your account details. Could you share the order number or any additional context so I can help you find the right information?",
+    "error": null,
+    "reference_answer": "Instant, within 2 hours of initiation."
+  },
+  {
+    "id": "PQ0004",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to your account or the company’s delivery scheduling policies. Could you let me know which order you’re referring to and your delivery address? That way I can help you find the best way to schedule your delivery.",
+    "error": null,
+    "reference_answer": "Sorry, I don't have information about that. I can connect you to a colleague who can help."
+  },
+  {
+    "id": "PQ0005",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant. I don’t have access to the coverage details for SKU ELE‑0002 or the claim process. For information about whether this item is covered by ZentroMart Assured and how to file a claim, please reach out to our customer support team or visit the support section on our website.",
+    "error": null,
+    "reference_answer": "Haan, 12 mahine ki Assured warranty hai; claim app mein My Orders se karein."
+  },
+  {
+    "id": "PQ0006",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant. I don’t have access to your account or the specific return policies for ZentroMart Plus members. Could you let me know if the return is within the standard return window (e.g., 30 days from purchase)? That might help me guide you to the right next steps.",
+    "error": null,
+    "reference_answer": "No. ZentroMart Plus members pay no reverse pickup fee."
+  },
+  {
+    "id": "PQ0008",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account details or refund status. Could you please share your order number or any reference number related to the refund? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "24 October 2026 se 27 October 2026 ke beech; Sunday aur warehouse holidays nahi gine jaate."
+  },
+  {
+    "id": "PQ0009",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to the company’s discount policies or customer accounts. Could you let me know what type of student discount you’re interested in (e.g., for a specific product, service, or membership)? That way I can help you find the right information.",
+    "error": null,
+    "reference_answer": "Sorry, I don't have information about that. I can connect you to a colleague who can help."
+  },
+  {
+    "id": "PQ0010",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to specific policies or your account details, so I can’t confirm whether a collection would be free in this situation. Could you let me know a bit more about the issue—such as whether you’ve already submitted a return request, or if you’re looking to start one now? That will help me guide you to the right next steps.",
+    "error": null,
+    "reference_answer": "Yes. No fee applies for damaged or wrong items. Report it within 48 hours with photos."
+  },
+  {
+    "id": "PQ0013",
+    "status": "LIVE",
+    "answer": "मैं एक AI सहायता सहायक हूँ।  \nक्या आप रिटर्न या एक्सचेंज के बारे में आगे बढ़ना चाहती हैं? यदि हाँ, तो कृपया बताइए कि आप किस विकल्प को पसंद करेंगी।",
+    "error": null,
+    "reference_answer": "नहीं, ब्यूटी प्रोडक्ट सिर्फ़ बिना खोले, सील के साथ ही वापस होते हैं।"
+  },
+  {
+    "id": "PQ0014",
+    "status": "LIVE",
+    "answer": "मैं एक AI सहायता सहायक हूँ। मुझे रिटर्न नीति के बारे में विशिष्ट जानकारी नहीं है। क्या आप बता सकते हैं कि आपने यह उत्पाद किस स्टोर या प्लेटफ़ॉर्म से खरीदा है? इससे मैं आपको सही दिशा-निर्देश देने में मदद कर सकूँगा।",
+    "error": null,
+    "reference_answer": "डिलीवरी के 10 दिन के अंदर लौटा सकते हैं।"
+  },
+  {
+    "id": "PQ0015",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to specific company policies or order details. Could you let me know which product or category you’re interested in, or any other details about the bulk order? That way I can guide you on how to find out if a GST invoice will be issued.",
+    "error": null,
+    "reference_answer": "Sorry, iske baare mein mere paas jaankari nahi hai. Main aapko ek colleague se connect kar sakti hoon."
+  },
+  {
+    "id": "PQ0016",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or the specific return policy details. Could you let me know your order number or the date of purchase? That way I can guide you on how to check the return eligibility or direct you to the appropriate resources.",
+    "error": null,
+    "reference_answer": "Beauty products can be returned only if unopened with the seal intact, so an opened one can't be returned."
+  },
+  {
+    "id": "PQ0018",
+    "status": "LIVE",
+    "answer": "मैं एक AI सहायता सहायक हूँ। मुझे रिटर्न नीति के विशिष्ट विवरण नहीं पता हैं। क्या आप कृपया उस ऑर्डर या उत्पाद के बारे में अधिक जानकारी दे सकते हैं जिसके बारे में आप पूछ रहे हैं?",
+    "error": null,
+    "reference_answer": "कौन सा सामान है, यह पूछें।"
+  },
+  {
+    "id": "PQ0019",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to your order details or the company’s return policy. Could you please provide your order number or let me know where you’d like to check the return window? That way I can guide you on the next steps.",
+    "error": null,
+    "reference_answer": "Electronics delivered before 1 August 2026 keep the 10-day window, so it was 10 days from 20 July."
+  },
+  {
+    "id": "PQ0020",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to return policies or your order details. Could you please provide your order number or the date you purchased the Sootra Canvas Tote Bag? That will help me give you the most accurate information.",
+    "error": null,
+    "reference_answer": "डिलीवरी के 15 दिन के अंदर लौटा सकते हैं। 1 से 15 अक्टूबर की फ़ेस्टिव सेल के ऑर्डर पर 30 दिन मिलते हैं।"
+  },
+  {
+    "id": "PQ0021",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to your account or the specific delivery policies. Could you share your order number or any additional details so I can help you find the right information?",
+    "error": null,
+    "reference_answer": "The courier tries up to 3 times; after the third failed attempt the parcel goes back to the warehouse."
+  },
+  {
+    "id": "PQ0022",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or refund details. Could you please share your order number or any reference number associated with the refund? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "Between 24 October 2026 and 27 October 2026, counting business days: Monday to Saturday, skipping warehouse holidays."
+  },
+  {
+    "id": "PQ0023",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or order details. Could you please share the order number or any other details (e.g., date, items) so I can help you investigate further?",
+    "error": null,
+    "reference_answer": "That needs urgent attention. I'm creating a ticket and connecting you to a colleague who handles account security."
+  },
+  {
+    "id": "PQ0024",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to return policies or your order details. Could you let me know the order number or when you purchased the Rangoli Cotton Straight Kurta? That will help me guide you on the return window.",
+    "error": null,
+    "reference_answer": "You can return it within 15 days of delivery. Orders placed in the 1 to 15 October festive sale get 30 days."
+  },
+  {
+    "id": "PQ0025",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or refund details, so I’m not able to tell you exactly when a net‑banking refund will appear. For the most accurate information, please reach out to our customer support team or check the status of your refund in your order history. If you’d like, I can help you find the contact details or guide you on how to check your order status.",
+    "error": null,
+    "reference_answer": "3 to 5 business days after the refund is initiated."
+  },
+  {
+    "id": "PQ0026",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to product warranty details or customer accounts. I’m sorry, but I can’t provide the warranty information for the Voltra PowerCell 10000 mAh Power Bank (SKU ELE‑0008). If you’d like, I can help you find the official warranty policy on our website or direct you to the appropriate support channel.",
+    "error": null,
+    "reference_answer": "A 12-month ZentroMart Assured warranty plus the 6-month brand warranty."
+  },
+  {
+    "id": "PQ0027",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or transaction details, so I can’t tell you the exact date your UPI refund will arrive. Could you please share the order number or the UPI transaction ID so I can help you check the status?",
+    "error": null,
+    "reference_answer": "13 October 2026 se 15 October 2026 ke beech; Sunday aur warehouse holidays nahi gine jaate."
+  },
+  {
+    "id": "PQ0028",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or transaction details, so I can’t tell you the exact date your refund will arrive. Could you please provide your order number or the transaction ID associated with the refund? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "Between 17 October 2026 and 21 October 2026, counting business days: Monday to Saturday, skipping warehouse holidays."
+  },
+  {
+    "id": "PQ0029",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account details, so I can’t see the status of your refund. Could you please share the order number or the transaction ID associated with the refund that started on 12 October 2026? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "17 October 2026 se 21 October 2026 ke beech; Sunday aur warehouse holidays nahi gine jaate."
+  },
+  {
+    "id": "PQ0030",
+    "status": "LIVE",
+    "answer": "Hello! I’m ZentroMart’s AI support assistant. I’m sorry to hear about the crack on your Kestrel Book 14 Laptop. I don’t have access to your account or order details, so could you please provide your order number or the email address used for the purchase? If you have any photos of the damage, that would also help us process your request more efficiently. Thank you!",
+    "error": null,
+    "reference_answer": "It's worth more than ₹10,000, so create a ticket and hand over to the Priority Resolution team."
+  },
+  {
+    "id": "PQ0031",
+    "status": "LIVE",
+    "answer": "Hello! I’m ZentroMart’s AI support assistant. I don’t have access to your account or any internal documents, so I can’t check order status or verify details for you.  \n\nCould you tell me a bit more about the speaker? For example:\n\n- The brand and model name  \n- Whether it’s a rechargeable battery or uses replaceable batteries  \n- If you’ve tried charging it or using a different power source  \n- Any lights or sounds that appear when you press the power button  \n\nWith that information I can suggest some troubleshooting steps that might help get it powered on.",
+    "error": null,
+    "reference_answer": "Charge it for 30 minutes with the original cable, then hold power for 10 seconds."
+  },
+  {
+    "id": "PQ0032",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to the specific coverage details for SKU ELE‑0003. Could you let me know if you’re referring to a recent purchase or if you have an order number? That way I can guide you on the next steps.",
+    "error": null,
+    "reference_answer": "Haan, 12 mahine ki Assured warranty hai; claim app mein My Orders se karein."
+  },
+  {
+    "id": "PQ0033",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or transaction details, so I can’t tell you the exact date your refund will arrive. Could you please provide your order number or the transaction ID associated with the refund? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "Between 22 October 2026 and 24 October 2026, counting business days: Monday to Saturday, skipping warehouse holidays."
+  },
+  {
+    "id": "PQ0034",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to our shipping policy details. Could you let me know which product or order you’re referring to, or any other details that might help me check if delivery to Dubai is possible?",
+    "error": null,
+    "reference_answer": "No, deliveries are only within India."
+  },
+  {
+    "id": "PQ0035",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or transaction details, so I can’t tell you exactly when the refund will arrive. Could you please provide your order number or the transaction ID related to the net banking refund? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "15 October 2026 se 17 October 2026 ke beech; Sunday aur warehouse holidays nahi gine jaate."
+  },
+  {
+    "id": "PQ0036",
+    "status": "LIVE",
+    "answer": "Hello! I’m ZentroMart’s AI support assistant. I don’t have access to your account or order details, so I can’t confirm the return policy for your specific purchase. Could you please share your order number or the date of purchase? That way I can guide you on the next steps for returning the Comfi One‑piece Swimsuit.",
+    "error": null,
+    "reference_answer": "Innerwear and swimwear can't be returned for fit or change of mind."
+  },
+  {
+    "id": "PQ0037",
+    "status": "LIVE",
+    "answer": "मैं एक AI सहायता सहायक हूँ। मुझे ज़ेंट्रोमार्ट के स्टोर लोकेशन के बारे में जानकारी नहीं है। क्या आप किसी विशेष क्षेत्र या पते के बारे में पूछना चाहेंगे? यदि आप चाहें, तो मैं आपको ज़ेंट्रोमार्ट की वेबसाइट या ग्राहक सहायता से संपर्क करने के तरीके बता सकता हूँ।",
+    "error": null,
+    "reference_answer": "माफ़ कीजिए, मेरे पास इस बारे में जानकारी नहीं है। मैं आपको किसी सहयोगी से जोड़ सकती हूँ।"
+  },
+  {
+    "id": "PQ0039",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to your account or order details, so I can’t check the return status for you. Could you please share your order number or any other details about the purchase so I can help you figure out the next steps?",
+    "error": null,
+    "reference_answer": "Innerwear and swimwear can't be returned for fit or change of mind."
+  },
+  {
+    "id": "PQ0040",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant. I don’t have access to your order details, so I can’t check the status for you. Could you please share your order number or any other details so I can help you find out if cancellation is still possible?",
+    "error": null,
+    "reference_answer": "शिप होने के बाद कैंसिल नहीं होता, पर डिलीवरी पर पार्सल लेने से मना कर सकते हैं।"
+  },
+  {
+    "id": "PQ0041",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to product warranty details or customer accounts. Could you provide more context—such as your order number or where you purchased the earbuds—so I can help you find the right information?",
+    "error": null,
+    "reference_answer": "A 12-month ZentroMart Assured warranty plus the 12-month brand warranty."
+  },
+  {
+    "id": "PQ0042",
+    "status": "LIVE",
+    "answer": "Hello! I’m ZentroMart’s AI support assistant. I don’t have access to your account or order details, so I can’t check the status or cancel the shipment directly. Could you please provide your order number or any other details you have? That way I can guide you on the next steps.",
+    "error": null,
+    "reference_answer": "A shipped order can't be cancelled, but you can refuse it at the door or return it after delivery."
+  },
+  {
+    "id": "PQ0044",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant from ZentroMart.  \nआपके द्वारा खरीदे गए Aangan Cotton Double Bedsheet Set को आप डिलीवरी के 30 दिनों के भीतर लौटाने के लिए पात्र हैं।",
+    "error": null,
+    "reference_answer": "डिलीवरी के 10 दिन के अंदर लौटा सकते हैं।"
+  },
+  {
+    "id": "PQ0045",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant. I don’t have access to your account or the specific refund policies for UPI transactions. Could you let me know which service or platform you’re referring to, or any additional details about the transaction? That will help me guide you to the right place for information.",
+    "error": null,
+    "reference_answer": "1 to 3 business days after the refund is initiated."
+  },
+  {
+    "id": "PQ0046",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I’m sorry to hear about the crack on your Kestrel Book 14 Laptop. Could you please provide your order number or the email address used for the purchase? If you have a photo of the damage, that would also help us process your request.",
+    "error": null,
+    "reference_answer": "It's worth more than ₹10,000, so create a ticket and hand over to the Priority Resolution team."
+  },
+  {
+    "id": "PQ0047",
+    "status": "ERROR",
+    "answer": null,
+    "error": "HTTPError",
+    "reference_answer": "Yes. If you paid the ₹79 express fee, it is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members pay no fee, so get no credit."
+  },
+  {
+    "id": "PQ0048",
+    "status": "LIVE",
+    "answer": "मैं एक AI सहायता सहायक हूँ। मैं आपके खाते या ऑर्डर विवरण तक पहुँच नहीं रखता। क्या आप कृपया अपना ऑर्डर नंबर और टूटे हुए आइटम का विवरण (उत्पाद का नाम, मॉडल, आदि) बता सकते हैं? इससे मैं आपको आगे की सहायता के लिए सही दिशा निर्देश दे सकूँगा।",
+    "error": null,
+    "reference_answer": "48 घंटे के अंदर फ़ोटो के साथ शिकायत करें।"
+  },
+  {
+    "id": "PQ0049",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your order details or the company’s return policy. Could you please share your order number or let me know if you’d like me to direct you to the return policy page on our website?",
+    "error": null,
+    "reference_answer": "30 days from delivery, because it was ordered in the festive sale."
+  },
+  {
+    "id": "PQ0050",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or order details, so I can’t process a refund directly. Could you please share your order number or any reference you have for the purchase? That way I can guide you on the next steps to request a refund.",
+    "error": null,
+    "reference_answer": "Choose ZentroMart Wallet for an instant refund, or a bank transfer that takes 5 to 7 business days after bank details are verified."
+  },
+  {
+    "id": "PQ0051",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account or order details, so I can’t check the status of a refund directly. Could you please provide your order number or any other details that might help me direct you to the right place?",
+    "error": null,
+    "reference_answer": "Ask how the customer paid (or for the order ID), because the timeline depends on the payment method."
+  },
+  {
+    "id": "PQ0052",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account details or refund status. Could you please provide your order number or the transaction ID related to the net‑banking refund? That will help me guide you on the next steps.",
+    "error": null,
+    "reference_answer": "22 October 2026 se 24 October 2026 ke beech; Sunday aur warehouse holidays nahi gine jaate."
+  },
+  {
+    "id": "PQ0053",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant for ZentroMart. I don’t have access to your order details, so I can’t confirm pickup options directly. Could you please share your order number or the name of the store you’re interested in? That will help me guide you to the right next steps.",
+    "error": null,
+    "reference_answer": "Sorry, I don't have information about that. I can connect you to a colleague who can help."
+  },
+  {
+    "id": "PQ0054",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your account details, so I can’t see the exact return window for your order. Could you let me know the delivery date (or your order number) so I can help you determine how many days you have left to return the UrbanThread Slim Fit Jeans?",
+    "error": null,
+    "reference_answer": "Festive sale ka order hai, isliye delivery se 30 din."
+  },
+  {
+    "id": "PQ0056",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to your order details or the company’s return policy. Could you share your order number or check the return policy on our website? That way I can help you find the right information.",
+    "error": null,
+    "reference_answer": "30 days from delivery, because it was ordered in the festive sale."
+  },
+  {
+    "id": "PQ0057",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I don’t have access to the company’s return policy documents or your account details, so I can’t confirm the exact return window for the Orbix Fit 3 Pro Smartwatch. Could you let me know which store or region you’re referring to, or if you have a specific order number? That way I can help you find the most accurate information.",
+    "error": null,
+    "reference_answer": "No. Since 1 August 2026 it is 7 days for anything delivered on or after that date."
+  },
+  {
+    "id": "PQ0058",
+    "status": "LIVE",
+    "answer": "I’m an AI assistant from ZentroMart. I don’t have access to your order details or the return policy. Could you please share your order number or any other details so I can help you further?",
+    "error": null,
+    "reference_answer": "Delivery date se 7 din tak."
+  },
+  {
+    "id": "PQ0059",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant and don’t have access to your account or transaction details. Could you please provide the order number or UPI transaction ID so I can help you check the status? If you’re unsure, I can guide you on how to find that information.",
+    "error": null,
+    "reference_answer": "Between 20 October 2026 and 22 October 2026, counting business days: Monday to Saturday, skipping warehouse holidays."
+  },
+  {
+    "id": "PQ0060",
+    "status": "LIVE",
+    "answer": "I’m an AI support assistant for ZentroMart. I’m sorry, but I can’t provide personal contact information for other customers. If you need help with your own order or have any other questions, feel free to let me know!",
+    "error": null,
+    "reference_answer": "I'm sorry, I can't share any details about other customers."
+  }
+]

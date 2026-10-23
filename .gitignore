@@ -1,0 +1,24 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Audio recordings
+*.wav
+*.mp3
+*.m4a
+
+# Temporary files and backups
+*.zip
+reports/*_backup*/
+
+# Private/generated data
+vendor/

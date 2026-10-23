@@ -1,0 +1,23 @@
+{
+  "baseline_statuses": {
+    "LIVE": 51,
+    "ERROR": 1
+  },
+  "rag_statuses": {
+    "LIVE": 52
+  },
+  "retrieval_mean_gold_section_recall_at_5": 0.648936170212766,
+  "retrieval_evaluated_count": 47,
+  "offline_decision_matches": 96,
+  "offline_decision_turns": 96,
+  "pytest_passed": 23,
+  "synthetic_dataset_validator": "PASS",
+  "live_gnani_STT_TTS": "user-verified",
+  "live_multiturn_voice_demo": "user-reported-tested",
+  "limitations": [
+    "No independent adjudicated answer accuracy",
+    "Offline decisions use RAG stub and suppress ticket side effects",
+    "No recording/video in uploaded ZIP",
+    "Service credentials and voice calls cannot be independently tested in this environment"
+  ]
+}

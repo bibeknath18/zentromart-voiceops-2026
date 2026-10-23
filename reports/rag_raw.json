@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "PQ0002",
+    "status": "LIVE",
+    "answer": "हाँ, **Kestrel K7 Smartphone (SKU ELE‑0012)** पर ZentroMart Assured लागू है।  \n- यह उत्पाद ZentroMart द्वारा ही पूरा किया गया है (`fulfilled_by: \"ZentroMart\"`), इसलिए Assured warranty मिलती है।  \n- Assured warranty 12 महीने की है, जो डिलीवरी की तारीख से शुरू होती है।  \n\n**Claim कैसे करें?**  \n1. ZentroMart ऐप खोलें और **My Orders** में जाएँ।  \n2. संबंधित ऑर्डर चुनें और **Warranty Claim** विकल्प पर टैप करें।  \n3. आवश्यक विवरण भरें (समस्या का वर्णन, फ़ोटो आदि)।  \n4. ZentroMart pickup और repair/replacement का प्रबंध करेगा।  \n\n(स्रोत: [WAR‑2] ZentroMart Assured, [MKS‑3] Marketplace sellers, Verified product data)",
+    "error": null,
+    "evidence": [
+      "WAR-2",
+      "MKS-3",
+      "DWM-4",
+      "PAY-4",
+      "help_troubleshooting_electronics:0"
+    ],
+    "gold_kb_sections": [
+      "WAR-2"
+    ],
+    "gold_hits": [
+      "WAR-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0003",
+    "status": "LIVE",
+    "answer": "Refunds to your ZentroMart Wallet are **instant—typically within 2 hours** of the refund being initiated.  \n(See the refund‑time table in the policy.)【REF-2】",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "PAY-1",
+      "PAY-4",
+      "REF-3",
+      "RET-7"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.1"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0004",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I don’t have enough information to confirm whether midnight delivery is available. The policies we have cover delivery fees, COD, and cancellation windows, but none specify the exact times you can schedule a delivery. If you need a definitive answer, please check the delivery options in your account or contact our support team.",
+    "error": null,
+    "evidence": [
+      "DEL-3",
+      "DEL-2",
+      "REF-5",
+      "PAY-2",
+      "CAN-3"
+    ],
+    "gold_kb_sections": [],
+    "gold_hits": [],
+    "gold_recall_at_5": null
+  },
+  {
+    "id": "PQ0005",
+    "status": "LIVE",
+    "answer": "हाँ, **Nimbus X2 Wireless Earbuds (SKU ELE‑0002)** पर **ZentroMart Assured** लागू है।  \n- यह आइटम ZentroMart द्वारा ही डिलीवर किया गया है (`fulfilled_by: \"ZentroMart\"`), इसलिए Assured गारंटी वैध है।  \n- Assured गारंटी 12 महीने की है, जो डिलीवरी की तारीख से शुरू होती है।  \n\n**Claim कैसे करें?**  \n1. ZentroMart ऐप खोलें और **My Orders** पर जाएँ।  \n2. संबंधित ऑर्डर चुनें और **Warranty Claim** विकल्प चुनें।  \n3. आवश्यक विवरण भरें (समस्या का वर्णन, फ़ोटो आदि)।  \n4. ZentroMart पैकेज का पिक‑अप और मरम्मत/रिप्लेसमेंट का प्रबंध करेगा।  \n\n(स्रोत: [WAR‑2] ZentroMart Assured, [MKS‑3] Marketplace sellers, और उत्पाद डेटा)",
+    "error": null,
+    "evidence": [
+      "WAR-2",
+      "MKS-3",
+      "DWM-4",
+      "PAY-4",
+      "help_troubleshooting_electronics:0"
+    ],
+    "gold_kb_sections": [
+      "WAR-2"
+    ],
+    "gold_hits": [
+      "WAR-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0006",
+    "status": "LIVE",
+    "answer": "No – as a ZentroMart Plus member the ₹49 reverse‑pickup fee is waived for change‑of‑mind returns of shoes (and other clothing, footwear, bags). The fee is only charged to non‑members.  \n\n**Evidence**  \n- RET‑6: “A reverse pickup fee of ₹49 applies to change‑of‑mind returns of clothing, footwear and bags. The fee is waived for ZentroMart Plus members …”",
+    "error": null,
+    "evidence": [
+      "PLS-2",
+      "RET-6",
+      "RET-7",
+      "FAQ-2",
+      "MKS-2"
+    ],
+    "gold_kb_sections": [
+      "RET-6",
+      "PLS-2"
+    ],
+    "gold_hits": [
+      "RET-6",
+      "PLS-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0008",
+    "status": "LIVE",
+    "answer": "Your credit‑card refund was started on **17 Oct 2026**.  \nAccording to the refund policy, a credit‑card refund takes **5 to 7 business days** from the initiation date【REF-2】.  \nUsing the official calculation for that date, the refund should reach your account between **24 Oct 2026** and **27 Oct 2026**【CALCULATED REFUND WINDOW】.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "RET-7",
+      "PAY-1",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0009",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I don’t have any information about a student discount in the current policy documents.",
+    "error": null,
+    "evidence": [
+      "REF-4",
+      "PAY-4",
+      "DEL-5",
+      "DEL-4",
+      "MKS-1"
+    ],
+    "gold_kb_sections": [],
+    "gold_hits": [],
+    "gold_recall_at_5": null
+  },
+  {
+    "id": "PQ0010",
+    "status": "LIVE",
+    "answer": "Yes – the pickup (collection) will be free.  \nWhen an item arrives damaged, the policy says the customer can get a free replacement or a full refund, and **no reverse‑pickup fee is charged**【DWM-2】.  \nIf you’re a ZentroMart Plus member, the same rule applies and the pickup is free as well【PLS-2】.",
+    "error": null,
+    "evidence": [
+      "DEL-2",
+      "DWM-2",
+      "CAN-1",
+      "RET-4",
+      "PLS-2"
+    ],
+    "gold_kb_sections": [
+      "RET-6",
+      "DWM-2"
+    ],
+    "gold_hits": [
+      "DWM-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0013",
+    "status": "LIVE",
+    "answer": "गुलमोहर मैट लिपस्टिक एक “beauty_sealed” श्रेणी का उत्पाद है। इस श्रेणी के लिए रिटर्न तभी स्वीकार्य है जब उत्पाद **अनखुला और सील intact** हो। आपने इसे खोल लिया है, इसलिए RET‑4 के अनुसार यह रिटर्न योग्य नहीं है।  \n\n**संदर्भ**: RET‑4 – “Beauty and personal care products are returnable only if unopened with the seal intact.”",
+    "error": null,
+    "evidence": [
+      "FAQH-1",
+      "RET-4",
+      "RET-2",
+      "FAQH-4",
+      "FAQH-3"
+    ],
+    "gold_kb_sections": [
+      "RET-4"
+    ],
+    "gold_hits": [
+      "RET-4"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0014",
+    "status": "LIVE",
+    "answer": "Pagecraft A5 Ruled Notebook (Pack of 4) **कितने दिन** में लौटाया जा सकता है?  \n\n- यह उत्पाद “Books and stationery” श्रेणी में आता है।  \n- इस श्रेणी के लिए रिटर्न विंडो **10 दिन** है, जो डिलीवरी की तारीख से गिनी जाती है।  \n\nइसलिए आपके पास डिलीवरी के 10वें दिन तक रिटर्न करने का समय है।  \n\n**स्रोत**: RET‑2 – Return windows by category.",
+    "error": null,
+    "evidence": [
+      "RET-2",
+      "CAN-2",
+      "PLS-2",
+      "FAQH-2",
+      "DWM-1"
+    ],
+    "gold_kb_sections": [
+      "RET-2"
+    ],
+    "gold_hits": [
+      "RET-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0015",
+    "status": "LIVE",
+    "answer": "I’m sorry, I don’t have that information.",
+    "error": null,
+    "evidence": [
+      "CPN-1",
+      "CAN-1",
+      "MKS-1",
+      "STY-3",
+      "CAN-2"
+    ],
+    "gold_kb_sections": [],
+    "gold_hits": [],
+    "gold_recall_at_5": null
+  },
+  {
+    "id": "PQ0016",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I don’t have enough information to confirm whether a tried‑on Neelam Eau de Parfum can be returned. The product is listed as a **beauty_sealed** item, but none of the policy documents you provided (PLS‑2, FAQ‑2, RET‑3, DWM‑4, CAN‑2) specify the return rules for beauty‑sealed products or what happens if the item has been opened. If you need a definitive answer, you might want to check ZentroMart’s return policy for beauty items or contact customer support directly.",
+    "error": null,
+    "evidence": [
+      "PLS-2",
+      "FAQ-2",
+      "RET-3",
+      "DWM-4",
+      "CAN-2"
+    ],
+    "gold_kb_sections": [
+      "RET-4",
+      "RET-2"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0018",
+    "status": "LIVE",
+    "answer": "किस उत्पाद को वापस करना है, उसके आधार पर रिटर्न विंडो अलग‑अलग होती है। नीचे मुख्य श्रेणियों के लिए समय‑सीमा दी गई है (सभी दिन डिलीवरी के दिन से गिने जाते हैं):\n\n| श्रेणी | रिटर्न विंडो | कैटलॉग कोड |\n|--------|--------------|-------------|\n| इलेक्ट्रॉनिक्स और एक्सेसरीज़ | 7 दिन (1 अगस्त 2026 के बाद) | `electronics` |\n| कपड़े, जूते और बैग | 15 दिन | `fashion` |\n| घर, रसोई और फर्नीचर | 10 दिन | `home_kitchen` |\n| सौंदर्य और व्यक्तिगत देखभाल (अनखुला, सील intact) | 7 दिन | `beauty_sealed` |\n| किताबें और स्टेशनरी | 10 दिन | `books_media` |\n| किराना, ताज़ा और नाशवंत | रिटर्न योग्य नहीं | `grocery` |\n| अंतर्वस्त्र, लिंजरी और स्विमवियर | रिटर्न योग्य नहीं | `innerwear` |\n| गिफ्ट कार्ड और डिजिटल कोड | रिटर्न योग्य नहीं | `digital` |\n\n**ध्यान दें**  \n- इलेक्ट्रॉनिक्स और एक्सेसरीज़ के लिए 1 अगस्त 2026 के बाद 7‑दिन की विंडो लागू होती है; इससे पहले के ऑर्डर पर 10‑दिन की विंडो बनी रहती है। (RET‑3)  \n- रिटर्न विंडो डिलीवरी के दिन से शुरू होती है। (RET‑2)\n\nयदि आप किसी विशेष उत्पाद के बारे में पूछना चाहते हैं, तो उसका कैटलॉग कोड या श्रेणी बताइए, ताकि मैं सटीक दिन‑संख्या बता सकूँ।",
+    "error": null,
+    "evidence": [
+      "PLS-2",
+      "FAQH-2",
+      "RET-3",
+      "RET-2",
+      "FAQH-1"
+    ],
+    "gold_kb_sections": [
+      "RET-2"
+    ],
+    "gold_hits": [
+      "RET-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0019",
+    "status": "LIVE",
+    "answer": "Your Orbix Fit 3 Pro Smartwatch was delivered on 20 July 2026, which is before the policy change on 1 August 2026.  \nAccording to the current return policy for electronics, you have a **10‑day return window** from the delivery date.  \n\n*Evidence: RET‑3 – “Electronics delivered before 1 August 2026 keep the earlier 10‑day window.”*",
+    "error": null,
+    "evidence": [
+      "RET-3",
+      "PLS-2",
+      "TRB-2",
+      "FAQ-2",
+      "CAN-2"
+    ],
+    "gold_kb_sections": [
+      "RET-3",
+      "RETv3-2"
+    ],
+    "gold_hits": [
+      "RET-3"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0020",
+    "status": "LIVE",
+    "answer": "Sootra Canvas Tote Bag **कपड़े, जूते और बैग** श्रेणी में आता है। इस श्रेणी के लिए रिटर्न विंडो 15 दिन है, जो डिलीवरी के दिन से शुरू होती है।  \n\n**संदर्भ**: RET‑2 (Return windows by category) – “Clothing, footwear and bags” → 15 days.",
+    "error": null,
+    "evidence": [
+      "RET-2",
+      "CAN-2",
+      "PLS-2",
+      "FAQH-2",
+      "DWM-1"
+    ],
+    "gold_kb_sections": [
+      "RET-2",
+      "RET-8"
+    ],
+    "gold_hits": [
+      "RET-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0021",
+    "status": "LIVE",
+    "answer": "If you’re not at home when the courier arrives, they’ll try to deliver again up to two more times. After each failed attempt you’ll receive an SMS asking you to reschedule. If the third attempt also fails, the parcel is sent back to the warehouse (RTO) and a refund will be processed.  \n\n**Evidence**: [TRK-1] Order statuses, [DEL-3] Delivery attempts.",
+    "error": null,
+    "evidence": [
+      "TRK-1",
+      "DEL-3",
+      "RET-2",
+      "WAR-3",
+      "ESC-2"
+    ],
+    "gold_kb_sections": [
+      "DEL-3"
+    ],
+    "gold_hits": [
+      "DEL-3"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0022",
+    "status": "LIVE",
+    "answer": "Your credit‑card refund was started on 17 Oct 2026.  \nAccording to the refund policy, credit or debit card refunds take **5 to 7 business days** from the initiation date【REF-2】.  \nUsing the official calculation window (Mon‑Sat, excluding holidays)【KB‑00.3】, that means you should see the refund on your card between **24 Oct 2026** (5 business days) and **27 Oct 2026** (7 business days).",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "RET-7",
+      "PAY-1",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0023",
+    "status": "LIVE",
+    "answer": "I’m not able to look at your account details, but here’s what you can do next:\n\n1. **Check the order details** – Log in to your ZentroMart account and review the order in question. Look for the order number, date, and any payment confirmation.  \n2. **Verify the payment** – If a charge appears on your bank or card statement, note the amount and date.  \n3. **Automatic reversal (if applicable)** – According to our payment policy, if money was deducted but the order was not actually placed, the amount is reversed automatically by the payment provider within **5 business days**【PAY-3】.  \n4. **Contact support** – If the order appears in your account but you did not place it, or if you see a charge you don’t recognize, please reach out to ZentroMart support. They can investigate the order and, if it was placed in error, can re‑issue a coupon or process a refund as needed【CPN-2】【REF-4】.\n\nLet me know if you need help with the support contact details or anything else!",
+    "error": null,
+    "evidence": [
+      "CPN-1",
+      "CPN-2",
+      "PAY-4",
+      "PAY-3",
+      "REF-4"
+    ],
+    "gold_kb_sections": [
+      "ESC-1"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0024",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I don’t have any information on the return window for the Rangoli Cotton Straight Kurta.",
+    "error": null,
+    "evidence": [
+      "FAQ-1",
+      "REF-2",
+      "IDV-2",
+      "TRB-1",
+      "TRK-1"
+    ],
+    "gold_kb_sections": [
+      "RET-2",
+      "RET-8"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0025",
+    "status": "LIVE",
+    "answer": "If you paid via net banking, a refund will reach your account in **3 to 5 business days** after the refund is initiated.  \n(See the refund‑time table in the Refunds policy – REF‑2.)",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "PAY-1",
+      "RET-7",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.1"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0026",
+    "status": "LIVE",
+    "answer": "The Voltra PowerCell 10000 mAh Power Bank (SKU ELE‑0008) comes with a **6‑month manufacturer warranty**【WAR‑1】, and because it is fulfilled by ZentroMart and marked “assured”, it also includes **ZentroMart Assured coverage**. The warranty covers manufacturing defects but not physical damage, liquid damage, normal wear, or unauthorised repairs【WAR‑3】.",
+    "error": null,
+    "evidence": [
+      "WAR-1",
+      "TRB-4",
+      "MKS-3",
+      "WAR-3",
+      "REF-3"
+    ],
+    "gold_kb_sections": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "gold_hits": [
+      "WAR-1"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0027",
+    "status": "LIVE",
+    "answer": "UPI से शुरू हुआ रिफंड 12 अक्टूबर 2026 को है। UPI के लिए रिफंड का समय **1 से 3 व्यावसायिक दिन** है (REF‑2)।  \n\n**गणना के अनुसार**  \n- 1 व्यावसायिक दिन → 13 अक्टूबर 2026  \n- 3 व्यावसायिक दिन → 15 अक्टूबर 2026  \n\nइसलिए रिफंड **13 से 15 अक्टूबर 2026** के बीच आपके खाते में दिख जाना चाहिए।  \n\n*स्रोत: REF‑2, CALCULATED REFUND WINDOW*",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "RET-7",
+      "PAY-1",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0028",
+    "status": "LIVE",
+    "answer": "Your net‑banking refund was initiated on **14 Oct 2026**.  \nAccording to the refund policy, net‑banking refunds take **3 to 5 business days**【REF-2】.  \nThe official calculation for this date gives:\n\n- 3 business days → **17 Oct 2026**  \n- 5 business days → **21 Oct 2026**【KB-00.3】\n\nSo you should expect the refund to appear in your account between **17 Oct 2026 and 21 Oct 2026**.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "PAY-1",
+      "RET-7",
+      "REF-3"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0029",
+    "status": "LIVE",
+    "answer": "Credit‑card refunds take **5 to 7 business days** from the day they’re initiated【REF-2】.  \nSince yours started on **12 Oct 2026**, the expected window is:\n\n- **Earliest arrival:** 17 Oct 2026  \n- **Latest arrival:** 21 Oct 2026【KB-00.3】  \n\nSo you should see the refund on your card between those dates.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "RET-7",
+      "PAY-1",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0030",
+    "status": "LIVE",
+    "answer": "Hi there! I’m sorry to hear the laptop arrived with a crack. Let’s get it sorted out quickly.\n\n1. **Start a return** – Log in to your ZentroMart account, go to **My Orders**, find the Kestrel Book 14 (SKU ELE‑0023) and select “Raise a return.”  \n   *[RVP-1]*\n\n2. **Pick a pickup slot** – Choose a convenient time for the delivery executive to collect the laptop. They’ll check the item against our condition rules when they arrive.  \n   *[RVP-1]*\n\n3. **Warranty check** – The laptop has a 12‑month warranty. If the damage is covered, we’ll process a repair or replacement under the warranty.  \n   *[VERIFIED PRODUCT DATA]*\n\n4. **Refund reference** – Once the return is initiated, you’ll receive a refund reference number (RRN). Keep it handy; it lets you track the refund with your bank.  \n   *[REF-6]*\n\nIf you’re still within the return window (typically 30 days for electronics), the return will be handled as a normal return. If it’s past that window, we’ll still review it under the warranty or brand policy.  \n\nLet me know if you need help with any of these steps!",
+    "error": null,
+    "evidence": [
+      "TRK-2",
+      "PLS-3",
+      "DWM-4",
+      "RVP-1",
+      "REF-6"
+    ],
+    "gold_kb_sections": [
+      "DWM-3",
+      "ESC-1"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0031",
+    "status": "LIVE",
+    "answer": "It sounds like your speaker might just need a full charge or a reset. Try these steps first:\n\n1. **Charge it** – Plug the speaker into its original charger and let it charge for at least 30 minutes.  \n2. **Force a restart** – Hold the power button for about 10 seconds until the speaker turns off and then on again.  \n\nIf the speaker still won’t power on after those steps, you can either return it within the return window or file a warranty claim. (See TRB‑4 for details.)",
+    "error": null,
+    "evidence": [
+      "TRB-4",
+      "TRB-2",
+      "TRB-1",
+      "TRB-3",
+      "RVP-1"
+    ],
+    "gold_kb_sections": [
+      "TRB-4"
+    ],
+    "gold_hits": [
+      "TRB-4"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0032",
+    "status": "LIVE",
+    "answer": "हाँ, **Nimbus X2 Pro Wireless Earbuds (SKU ELE‑0003)** पर ZentroMart Assured लागू है।  \n- यह उत्पाद ZentroMart द्वारा ही पूरा किया गया है (`fulfilled_by: \"ZentroMart\"`), इसलिए Assured warranty मिलती है।  \n- Assured warranty 12 महीने की है, जो डिलीवरी की तारीख से शुरू होती है।  \n\n**Claim कैसे करें?**  \n1. ZentroMart ऐप खोलें और **My Orders** पर जाएँ।  \n2. संबंधित ऑर्डर चुनें और **Warranty Claim** विकल्प चुनें।  \n3. आवश्यक विवरण भरें (समस्या का वर्णन, फ़ोटो आदि)।  \n4. ZentroMart पैकेज का पिक‑अप और मरम्मत/रिप्लेसमेंट का प्रबंध करेगा।  \n\n(स्रोत: [WAR‑2] ZentroMart Assured, [MKS‑3] Warranty, Verified Product Data)",
+    "error": null,
+    "evidence": [
+      "WAR-2",
+      "MKS-3",
+      "DWM-4",
+      "PAY-4",
+      "help_troubleshooting_electronics:0"
+    ],
+    "gold_kb_sections": [
+      "WAR-2"
+    ],
+    "gold_hits": [
+      "WAR-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0033",
+    "status": "LIVE",
+    "answer": "Your net‑banking refund was initiated on **17 Oct 2026**.  \nAccording to the refund policy, net‑banking refunds take **3 to 5 business days**【REF-2】.  \nUsing the official calculation window (Mon‑Sat, excluding holidays) the range is:\n\n- **Earliest arrival:** 22 Oct 2026 (3 business days)  \n- **Latest arrival:** 24 Oct 2026 (5 business days)【KB‑00.3】\n\nSo you should expect the refund to appear in your account between **22 Oct 2026 and 24 Oct 2026**.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "PAY-1",
+      "RET-7",
+      "REF-3"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0034",
+    "status": "LIVE",
+    "answer": "I’m sorry, but we don’t ship outside India. Our delivery service is limited to Indian addresses only【FAQ-5】【DEL-5】.",
+    "error": null,
+    "evidence": [
+      "FAQ-5",
+      "DEL-5",
+      "TRK-1",
+      "REF-5",
+      "DEL-2"
+    ],
+    "gold_kb_sections": [
+      "DEL-5",
+      "FAQ-5"
+    ],
+    "gold_hits": [
+      "DEL-5",
+      "FAQ-5"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0035",
+    "status": "LIVE",
+    "answer": "Net banking refunds take **3 to 5 business days** after the refund is initiated【REF-2】.  \nSince the refund started on **12 Oct 2026**, you should expect it to arrive between **15 Oct 2026** (3 business days) and **17 Oct 2026** (5 business days)【KB‑00.3】.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "PAY-1",
+      "RET-7",
+      "REF-3"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0036",
+    "status": "LIVE",
+    "answer": "I’m sorry, but a swimsuit falls under the “innerwear, lingerie and swimwear” category, which is listed as **not returnable for a change of mind**.  \nAccording to the return policy (RET‑5), these items can only be returned if they arrive damaged, expired, wrong, or missing. Since the issue is a size fit, it doesn’t qualify for a return.  \n\nIf you have any other concerns or need help with a different order, let me know!",
+    "error": null,
+    "evidence": [
+      "RET-5",
+      "RET-2",
+      "WAR-3",
+      "CAN-2",
+      "DWM-1"
+    ],
+    "gold_kb_sections": [
+      "RET-2",
+      "RET-5"
+    ],
+    "gold_hits": [
+      "RET-2",
+      "RET-5"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0037",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I don’t have any information about a ZentroMart store in Kochi.",
+    "error": null,
+    "evidence": [
+      "FAQH-4",
+      "FAQH-1",
+      "FAQH-3",
+      "FAQH-2"
+    ],
+    "gold_kb_sections": [],
+    "gold_hits": [],
+    "gold_recall_at_5": null
+  },
+  {
+    "id": "PQ0039",
+    "status": "LIVE",
+    "answer": "I’m sorry the briefs don’t fit.  \nBecause they’re in the **innerwear, lingerie and swimwear** category, the return policy says they are **not returnable for a change of mind**【RET-2】【RET-5】.  \n\nIf the item were damaged, expired, wrong or missing, you would need to report it within 48 hours of delivery【DWM-1】, but for a sizing issue it can’t be returned.",
+    "error": null,
+    "evidence": [
+      "RET-2",
+      "RET-5",
+      "RET-4",
+      "DWM-1",
+      "WAR-3"
+    ],
+    "gold_kb_sections": [
+      "RET-2",
+      "RET-5"
+    ],
+    "gold_hits": [
+      "RET-2",
+      "RET-5"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0040",
+    "status": "LIVE",
+    "answer": "ऑर्डर शिप हो जाने के बाद उसे कैंसिल नहीं किया जा सकता। आप केवल डिलीवरी के समय पार्सल लेने से मना कर सकते हैं।  \n- **FAQH‑1**: “शिप होने के बाद ऑर्डर कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं।”  \n- **CAN‑1**: “Any order can be cancelled free of charge until it is shipped.”",
+    "error": null,
+    "evidence": [
+      "FAQH-1",
+      "FAQH-4",
+      "FAQH-2",
+      "FAQH-3",
+      "CAN-1"
+    ],
+    "gold_kb_sections": [
+      "FAQH-1",
+      "CAN-2"
+    ],
+    "gold_hits": [
+      "FAQH-1"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0041",
+    "status": "LIVE",
+    "answer": "The Nimbus X2 Pro Wireless Earbuds (SKU ELE‑0003) come with two layers of coverage:\n\n1. **Brand warranty** – 12 months from the purchase date, as listed in the product catalog【WAR‑1】.  \n2. **ZentroMart Assured** – an additional 12‑month warranty from the delivery date, because the item is marked `assured = true` and is fulfilled by ZentroMart【WAR‑2】.  \n\nSo you have a 12‑month brand warranty plus a 12‑month ZentroMart Assured warranty.",
+    "error": null,
+    "evidence": [
+      "TRB-1",
+      "WAR-1",
+      "WAR-3",
+      "MKS-3",
+      "WAR-2"
+    ],
+    "gold_kb_sections": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "gold_hits": [
+      "WAR-1",
+      "WAR-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0042",
+    "status": "LIVE",
+    "answer": "I’m sorry, but once an order has shipped it can’t be cancelled.  \nAccording to our cancellation policy (CAN‑1), orders can only be cancelled free of charge **before they are shipped**. Since your order is already “Shipped,” the cancellation window has closed.\n\nWhat you can do next:\n\n1. **Track the delivery** – Open the *My Orders* section in the app and check the current status.  \n2. **If you receive the item and want it back** – you can initiate a return after delivery. The return process will start automatically once the package is delivered.\n\nIf you need help with tracking or starting a return, let me know and I’ll walk you through it.",
+    "error": null,
+    "evidence": [
+      "ESC-3",
+      "DWM-5",
+      "CAN-1",
+      "CPN-1",
+      "TRK-1"
+    ],
+    "gold_kb_sections": [
+      "CAN-2"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0044",
+    "status": "LIVE",
+    "answer": "Aangan Cotton Double Bedsheet Set को **10 दिन** के भीतर लौटाया जा सकता है।  \nरिटर्न विंडो डिलीवरी के दिन से शुरू होती है।  \n\n**स्रोत:** RET‑2 (Return windows by category) – Home, kitchen and furniture → 10 days.",
+    "error": null,
+    "evidence": [
+      "RET-2",
+      "CAN-2",
+      "PLS-2",
+      "FAQH-2",
+      "DWM-1"
+    ],
+    "gold_kb_sections": [
+      "RET-2"
+    ],
+    "gold_hits": [
+      "RET-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0045",
+    "status": "LIVE",
+    "answer": "Refunds to a UPI account usually arrive within **1 to 3 business days** from the day the refund is initiated【REF-2】.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "RET-7",
+      "PAY-1",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.1"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0046",
+    "status": "LIVE",
+    "answer": "I’m sorry to hear the laptop arrived damaged. Here’s what you can do next:\n\n1. **Report the damage** – Open your order in the ZentroMart app or website and select “Return” (or “Report a problem”).  \n   *If the return window is still open, the item will be processed as a normal return.* (See [DWM‑4] for handling after 48 hrs.)  \n\n2. **Book a pickup** – From the return request, choose a convenient pickup slot. The delivery executive will inspect the laptop against the condition rules in [RVP‑1].  \n\n3. **Refund** – Once the return is accepted, you’ll receive a refund reference number (RRN). If you don’t see the money in your account, share the RRN with your bank (see [REF‑6]).\n\nIf the return window has closed, you can still use the 12‑month warranty that comes with the Kestrel Book 14 Laptop (SKU ELE‑0022). Let me know if you need help with any of these steps!",
+    "error": null,
+    "evidence": [
+      "TRK-2",
+      "PLS-3",
+      "DWM-4",
+      "RVP-1",
+      "REF-6"
+    ],
+    "gold_kb_sections": [
+      "DWM-3",
+      "ESC-1"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0047",
+    "status": "LIVE",
+    "answer": "Yes—if your Express order arrives after the promised date, the ₹79 express fee you paid will be credited back to your ZentroMart Wallet automatically within 48 hours. (This applies only to non‑Plus members; Plus members don’t pay the fee, so no credit is issued.)【DEL-4】",
+    "error": null,
+    "evidence": [
+      "DEL-4",
+      "DEL-1",
+      "DEL-5",
+      "PLS-2",
+      "REF-6"
+    ],
+    "gold_kb_sections": [
+      "DEL-4"
+    ],
+    "gold_hits": [
+      "DEL-4"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0048",
+    "status": "LIVE",
+    "answer": "आपको **48 घंटे के भीतर** डिलीवरी के समय की फ़ोटो के साथ शिकायत करनी होगी।  \n- फ़ोटो के साथ शिकायत करने पर जाँच के बाद **मुफ़्त रिप्लेसमेंट** या **पूरा रिफ़ंड** मिलेगा।  \n- यदि आपका आइटम गॉरमेट/ताज़ा उत्पाद, इंटीरियर, लिंजरी, स्विमवियर या गिफ़्ट कार्ड है, तो भी यदि वह **ख़राब, क्षतिग्रस्त, समाप्त या गलत** आया हो, तो ऊपर वाली नीति लागू होगी (RET‑5)।\n\nइसलिए, फ़ोटो लें, 48 घंटे के भीतर शिकायत फ़ॉर्म भरें, और आपको बदली या रिफ़ंड मिल जाएगा।",
+    "error": null,
+    "evidence": [
+      "FAQH-3",
+      "FAQH-4",
+      "FAQH-1",
+      "FAQH-2",
+      "RET-5"
+    ],
+    "gold_kb_sections": [
+      "FAQH-3",
+      "DWM-1"
+    ],
+    "gold_hits": [
+      "FAQH-3"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0049",
+    "status": "LIVE",
+    "answer": "You can return the Kurta within **30 days of delivery**.  \nThis is because it’s a clothing item purchased during the festive sale (orders placed 01 Oct – 15 Oct 2026) and the policy for such items is a 30‑day return window【RET-8】.",
+    "error": null,
+    "evidence": [
+      "FAQ-2",
+      "RET-8",
+      "PLS-2",
+      "RET-1",
+      "FAQ-1"
+    ],
+    "gold_kb_sections": [
+      "RET-8"
+    ],
+    "gold_hits": [
+      "RET-8"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0050",
+    "status": "LIVE",
+    "answer": "**How to get your money back**\n\n1. **Return the item within the return window**  \n   • Return it by the end of the return period (see the return‑policy details).  \n   • Include any required photos and packaging as per the reporting window policy.\n\n2. **Refund processing**  \n   • Once the returned item reaches our warehouse and is inspected, we’ll issue a refund to the original payment method.  \n   • For cash‑on‑delivery orders the ₹25 COD fee is not refunded, so the refund will be for the item price only.  \n\n3. **If you refused the parcel at delivery**  \n   • For COD orders, nothing is charged, so you’ll receive the full amount back immediately.  \n\n**Next steps**  \n- Use the return link in your order confirmation or the ZentroMart app.  \n- Keep the return receipt; it’s proof that the item was sent back.  \n\nIf you need help creating a return or have any other questions, let us know!",
+    "error": null,
+    "evidence": [
+      "PAY-2",
+      "PLS-2",
+      "FAQ-2",
+      "CAN-2",
+      "DWM-1"
+    ],
+    "gold_kb_sections": [
+      "REF-3",
+      "REF-2"
+    ],
+    "gold_hits": [],
+    "gold_recall_at_5": 0.0
+  },
+  {
+    "id": "PQ0051",
+    "status": "LIVE",
+    "answer": "I’m happy to help! The timing of your refund depends on a couple of things:\n\n1. **When the refund is actually initiated**  \n   * If you cancelled before the item shipped, the refund is started immediately.  \n   * If you returned an item, the refund is started within 2 business days of pickup (after the item passes quality check). For ZentroMart Plus members it’s started right at pickup.  \n   * If a prepaid order was refused or not delivered after 3 attempts, the refund is started when the parcel reaches the warehouse, usually 7–10 calendar days after the last delivery attempt.  \n   *(See REF‑1)*\n\n2. **How long it takes to reach you after initiation** – this depends on the payment method you used:  \n\n| Payment method | Time to reach you |\n|----------------|-------------------|\n| UPI | 1–3 business days |\n| Credit or debit card | 5–7 business days |\n| Net banking | 3–5 business days |\n| ZentroMart Wallet | Instant, within 2 hours |\n| Bank transfer (NEFT) for COD orders | 5–7 business days |\n| ZentroMart Wallet for COD orders | Instant, within 2 hours |\n*(See REF‑2)*\n\nSo, once the refund is initiated, add the corresponding time‑to‑reach based on your payment method. If you let me know which payment method you used and the status of your order (cancellation, return, etc.), I can give you a more precise estimate.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "PAY-1",
+      "PAY-3",
+      "RET-7",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0052",
+    "status": "LIVE",
+    "answer": "Net banking refunds take **3 to 5 business days** after the refund is initiated【REF-2】.  \nSince your refund started on **17 Oct 2026**, you should see it in your account between **22 Oct 2026** (after 3 business days) and **24 Oct 2026** (after 5 business days)【KB‑00.3】.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "PAY-1",
+      "RET-7",
+      "REF-3"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0053",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I don’t have any information about in‑store pickup options for your order. If you’d like to confirm whether pickup is available, you could check the order details in the app or contact our support team directly.",
+    "error": null,
+    "evidence": [
+      "CAN-1",
+      "CPN-1",
+      "MKS-1",
+      "IDV-2",
+      "CAN-2"
+    ],
+    "gold_kb_sections": [],
+    "gold_hits": [],
+    "gold_recall_at_5": null
+  },
+  {
+    "id": "PQ0054",
+    "status": "LIVE",
+    "answer": "UrbanThread Slim Fit Jeans falls under the “Clothing, footwear and bags” category.  \nBecause the order was placed between 01 Oct 2026 and 15 Oct 2026, the return window is **30 days from the delivery date**【RET-8】.",
+    "error": null,
+    "evidence": [
+      "RET-8",
+      "PLS-2",
+      "RET-2",
+      "RET-3",
+      "FAQ-2"
+    ],
+    "gold_kb_sections": [
+      "RET-8"
+    ],
+    "gold_hits": [
+      "RET-8"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0056",
+    "status": "LIVE",
+    "answer": "You can return the Sootra Canvas Tote Bag within **30 days from the delivery date**.  \nThis applies because it’s a “Clothing, footwear and bags” item and the order was placed between 01 Oct – 15 Oct 2026, which extends the normal 15‑day window to 30 days【RET-8】【RET-2】.",
+    "error": null,
+    "evidence": [
+      "RET-2",
+      "RET-8",
+      "FAQ-2",
+      "PLS-2",
+      "RET-1"
+    ],
+    "gold_kb_sections": [
+      "RET-8"
+    ],
+    "gold_hits": [
+      "RET-8"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0057",
+    "status": "LIVE",
+    "answer": "I’m not sure—whether the 10‑day window still applies depends on when the smartwatch was delivered.  \n- If it arrived **before 1 August 2026**, the older 10‑day return period from the previous policy still applies.  \n- If it was delivered **on or after 1 August 2026**, the return window for electronics and accessories has been shortened to **7 days** (RET‑3).  \n\nIf you can let me know the delivery date, I can confirm the exact return window for your Orbix Fit 3 Pro.",
+    "error": null,
+    "evidence": [
+      "RET-3",
+      "PLS-2",
+      "RET-2",
+      "TRB-2",
+      "FAQ-2"
+    ],
+    "gold_kb_sections": [
+      "RET-3"
+    ],
+    "gold_hits": [
+      "RET-3"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0058",
+    "status": "LIVE",
+    "answer": "आपका Kestrel K7 Smartphone **2 दिन पहले** डिलीवर हुआ था।  \nइलेक्ट्रॉनिक्स और एक्सेसरीज़ के लिए रिटर्न विंडो **डिलीवरी के दिन से शुरू होकर 7 दिन** है (RET‑2)।  \n\nइसका मतलब है कि आपके पास कुल 7 दिन का समय है, और चूँकि 2 दिन बीत चुके हैं, आपके पास अभी **5 दिन** शेष हैं।  \n\n> **RET‑2** – “Electronics and accessories – 7 days”  \n> **RET‑3** – “From 1 Aug 2026, electronics return window is 7 days”  \n\nयदि आप ज़ेन्त्रोमार्ट प्लस सदस्य हैं, तो रिटर्न विंडो वही रहेगी, पर रिवर्स पिक‑अप फ़ी नहीं लगेगी।",
+    "error": null,
+    "evidence": [
+      "RET-2",
+      "PLS-2",
+      "CAN-2",
+      "RET-3",
+      "MKS-2"
+    ],
+    "gold_kb_sections": [
+      "RET-2",
+      "RET-3"
+    ],
+    "gold_hits": [
+      "RET-2",
+      "RET-3"
+    ],
+    "gold_recall_at_5": 1.0
+  },
+  {
+    "id": "PQ0059",
+    "status": "LIVE",
+    "answer": "Your UPI refund was initiated on **17 October 2026**.  \nAccording to the refund policy, UPI refunds take **1 to 3 business days** from the initiation date【REF-2】.  \nThe calculated business‑day window for that date is:\n\n- 1 business day → **20 October 2026**  \n- 3 business days → **22 October 2026**【KB-00.3】\n\nSo you should receive the refund between **20 October 2026 and 22 October 2026**. If it hasn’t arrived by then, let us know and we’ll investigate further.",
+    "error": null,
+    "evidence": [
+      "REF-2",
+      "FAQ-1",
+      "RET-7",
+      "PAY-1",
+      "REF-1"
+    ],
+    "gold_kb_sections": [
+      "REF-2",
+      "KB-00.3"
+    ],
+    "gold_hits": [
+      "REF-2"
+    ],
+    "gold_recall_at_5": 0.5
+  },
+  {
+    "id": "PQ0060",
+    "status": "LIVE",
+    "answer": "I’m sorry, but I can’t share that information. I can connect you to a human colleague who can help you further.",
+    "error": null,
+    "evidence": [
+      "IDV-4",
+      "IDV-2",
+      "FAQ-4",
+      "IDV-3",
+      "REF-6"
+    ],
+    "gold_kb_sections": [
+      "ESC-4",
+      "IDV-4"
+    ],
+    "gold_hits": [
+      "IDV-4"
+    ],
+    "gold_recall_at_5": 0.5
+  }
+]

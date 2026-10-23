@@ -1,0 +1,1226 @@
+[
+  {
+    "conversation_id": "PC002",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I’d be happy to help!  \nTo look up your order details, could you please share:\n\n1. Your order number  \n2. The phone number you used to register the account  \n\nOnce I have that, I can check the status and assist you further.  \n\n*If the verification fails, I’ll give you one more try before offering general policy help.*【IDV-3】",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC002",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC002",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC002",
+    "turn": "4",
+    "expected_decision": "escalate",
+    "actual_decision": "handover",
+    "reply": "This needs review by a human support agent. I can help direct you to support.",
+    "evidence": [],
+    "verification_state": "handover",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I can help with that.  \nCould you please share your order number and the phone number registered with your account? This will let me verify your identity and look up the details.  \n\nIf the verification doesn’t go through, I’ll be able to give you general policy information and guide you on next steps.  \n[IDV-3]",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "हाँ, आप **Kaafi Running Sneakers** को वापस कर सकती हैं, बशर्ते आप रिटर्न विंडो के भीतर हों।  \n\n- FAQ‑2 में कहा गया है कि “अधिकांश आइटम रिटर्न विंडो के भीतर लौटाए जा सकते हैं”【FAQ‑2】।  \n- RET‑1 के अनुसार यह नीति ज़ेन्त्रोमार्ट पर खरीदे गए सभी आइटम्स पर लागू होती है【RET‑1】।  \n\nइसलिए, यदि आपके पास रिटर्न विंडो (आमतौर पर 10 दिन, परंतु सटीक अवधि आपके ऑर्डर के समय की नीति पर निर्भर करती है) के भीतर है, तो आप स्नीकर्स को वापस कर सकती हैं।",
+    "evidence": [
+      "PLS-2",
+      "FAQ-2",
+      "RET-3",
+      "RET-1",
+      "DWM-4"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC003",
+    "turn": "5",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "**Refund ka samay**  \nRefund aapke original payment method ke hisaab se aata hai. Refund ko *initiate* hone ke baad business days mein count kiya jata hai (Monday‑Saturday, warehouse holidays ko chhod kar – KB‑00.3).\n\n| Payment method | Refund tak ka samay (business days) |\n|-----------------|-------------------------------------|\n| UPI | 1 – 3 |\n| Credit/Debit card | 5 – 7 |\n| Net banking | 3 – 5 |\n| ZentroMart Wallet | Instant (2 ghante ke andar) |\n| Bank transfer (NEFT) – COD orders | 5 – 7 |\n| ZentroMart Wallet – COD orders | Instant (2 ghante ke andar) |\n\n**Pickup ke baad**  \n- Item QC pass karne ke baad refund **2 business days** ke andar initiate hota hai (RET‑7).  \n- ZentroMart Plus members ke liye refund pickup ke samay hi initiate hota hai.\n\nIsliye, agar aapne UPI se payment kiya hai, to refund 1‑3 business days mein aayega; card se 5‑7 days, wallet se turant, etc. Agar aapko exact timing chahiye, to apne payment method ka zikr karein.",
+    "evidence": [
+      "REF-2",
+      "PAY-1",
+      "PAY-3",
+      "RET-7",
+      "KB-00.3"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "नमस्ते! आपके ऑर्डर से संबंधित किसी भी सवाल के लिए मैं मदद कर सकता हूँ।  \n- यदि आपका ऑर्डर अभी शिप नहीं हुआ है, तो आप उसे मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। [FAQH-1]  \n- अगर आपको डिलीवरी के बाद कोई समस्या (जैसे खराब या गलत सामान) हुई है, तो 48 घंटे के अंदर फ़ोटो के साथ शिकायत करें; जाँच के बाद मुफ़्त रिप्लेसमेंट या पूरा रिफ़ंड मिलेगा। [FAQH-3]  \n- रिफ़ंड के लिए आप ZentroMart Wallet में तुरंत रिफ़ंड ले सकते हैं, या बैंक ट्रांसफ़र चुन सकते हैं (5‑7 कामकाजी दिन लगते हैं)। [FAQH-2]  \n- यदि आप ZentroMart Plus सदस्य हैं, तो मुफ़्त एक्सप्रेस डिलीवरी, पिकअप फ़ीस नहीं, और रिटर्न का रिफ़ंड पिकअप के समय ही शुरू हो जाता है। [FAQH-4]  \n\nकृपया बताइए कि आपको किस विषय में सहायता चाहिए—कैंसिलेशन, रिटर्न, रिफ़ंड, या कुछ और? मैं आगे मदद करूँगा।",
+    "evidence": [
+      "FAQH-1",
+      "FAQH-2",
+      "FAQH-4",
+      "FAQH-3"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "I’m sorry, but I don’t have any policy information about returning clothing items like the UrbanThread Slim Fit Jeans. If you need details on the return window or process for apparel, you might want to check the official ZentroMart return policy or contact customer support for confirmation.",
+    "evidence": [
+      "FAQH-1",
+      "PLS-2",
+      "FAQH-4",
+      "FAQH-3",
+      "RET-3"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC004",
+    "turn": "5",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "रिफ़ंड का समय आपके चुने हुए भुगतान तरीके पर निर्भर करता है। नीचे सामान्य समयसीमा दी गई है:\n\n| भुगतान विधि | रिफ़ंड आने का समय |\n|--------------|-------------------|\n| UPI | 1‑3 कार्य दिवस |\n| क्रेडिट/डेबिट कार्ड | 5‑7 कार्य दिवस |\n| नेट बैंकिंग | 3‑5 कार्य दिवस |\n| ZentroMart Wallet | तुरंत, 2 घंटे के भीतर |\n| बैंक ट्रांसफ़र (COD ऑर्डर के लिए) | 5‑7 कार्य दिवस |\n\n(स्रोत: [REF-2] pol_refunds.md)",
+    "evidence": [
+      "REF-2",
+      "FAQH-2",
+      "FAQH-4",
+      "PAY-1",
+      "PAY-3"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "नमस्ते! आपके ऑर्डर से संबंधित किसी भी सवाल के लिए मैं मदद कर सकता हूँ।  \n- यदि आपका ऑर्डर अभी शिप नहीं हुआ है, तो आप उसे मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। [FAQH-1]  \n- अगर आपको डिलीवरी के बाद कोई समस्या (जैसे खराब या गलत सामान) हुई है, तो 48 घंटे के अंदर फ़ोटो के साथ शिकायत करें; जाँच के बाद मुफ़्त रिप्लेसमेंट या पूरा रिफ़ंड मिलेगा। [FAQH-3]  \n- रिफ़ंड के लिए आप ZentroMart Wallet में तुरंत रिफ़ंड ले सकते हैं, या बैंक ट्रांसफ़र चुन सकते हैं (5‑7 कामकाजी दिन लगते हैं)। [FAQH-2]  \n- यदि आप ZentroMart Plus सदस्य हैं, तो मुफ़्त एक्सप्रेस डिलीवरी, पिकअप फ़ीस नहीं, और रिटर्न का रिफ़ंड पिकअप के समय ही शुरू हो जाता है। [FAQH-4]  \n\nकृपया बताइए कि आपको किस विषय में सहायता चाहिए—कैंसिलेशन, रिटर्न, रिफ़ंड, या कुछ और? मैं आगे मदद करूँगा।",
+    "evidence": [
+      "FAQH-1",
+      "FAQH-2",
+      "FAQH-4",
+      "FAQH-3"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC005",
+    "turn": "4",
+    "expected_decision": "escalate",
+    "actual_decision": "answer",
+    "reply": "I’m sorry, but I don’t have that information.",
+    "evidence": [
+      "FAQH-1",
+      "FAQH-4",
+      "FAQH-3",
+      "FAQH-2"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure! To help you with your order, could you please verify your identity by providing your order number and the last four digits of the phone number on file?",
+    "evidence": [
+      "IDV-1",
+      "STY-5",
+      "IDV-3",
+      "KB-00.4",
+      "CPN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC006",
+    "turn": "4",
+    "expected_decision": "escalate",
+    "actual_decision": "answer",
+    "reply": "Sure! Just let me know you’d like to speak with a human, and I’ll connect you to a colleague right away.  \n(See FAQ‑4 for details.)",
+    "evidence": [
+      "FAQ-4",
+      "MKT-1",
+      "TRB-4",
+      "RET-4",
+      "CPN-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I’d be happy to help with your order.  \nBefore I can look up any details, I’ll need to verify your identity. Could you please confirm your name and the phone number registered on your account? Once that’s confirmed, I’ll be able to pull up your order information.",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is shipped. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC007",
+    "turn": "4",
+    "expected_decision": "escalate",
+    "actual_decision": "answer",
+    "reply": "I’m sorry you’ve had to call multiple times.  \nLet me pull up your order details so I can see what’s happening. Could you please share the order number (or the email/phone linked to the account)?  \n\nOnce I have that, I’ll check the status and let you know the next steps.  \n\n*Reference: ESC‑4 – we must not promise any compensation or action until we confirm the details.*",
+    "evidence": [
+      "ESC-4",
+      "REF-4",
+      "DWM-4",
+      "REF-1",
+      "DEL-4"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I’d be happy to help. To look up your order details, could you please verify your identity by providing your order number and the last four digits of the phone number on file? [IDV-1, STY-5]",
+    "evidence": [
+      "IDV-1",
+      "STY-5",
+      "IDV-3",
+      "KB-00.4",
+      "CPN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC008",
+    "turn": "4",
+    "expected_decision": "escalate",
+    "actual_decision": "answer",
+    "reply": "I’m sorry to hear you’re still having trouble. Could you let me know what specific issue you’re experiencing? [STY-5]",
+    "evidence": [
+      "STY-5",
+      "CAN-3",
+      "ESC-2",
+      "RET-7",
+      "REF-2"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "नमस्ते! आपके ऑर्डर से संबंधित किसी भी सवाल के लिए मैं मदद कर सकता हूँ।  \n- यदि आपका ऑर्डर अभी शिप नहीं हुआ है, तो आप उसे मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। [FAQH-1]  \n- अगर आपको डिलीवरी के बाद कोई समस्या (जैसे खराब या गलत सामान) हुई है, तो 48 घंटे के अंदर फ़ोटो के साथ शिकायत करें; जाँच के बाद मुफ़्त रिप्लेसमेंट या पूरा रिफ़ंड मिलेगा। [FAQH-3]  \n- रिफ़ंड के लिए आप ZentroMart Wallet में तुरंत रिफ़ंड ले सकते हैं, या बैंक ट्रांसफ़र चुन सकते हैं (5‑7 कामकाजी दिन लगते हैं)। [FAQH-2]  \n- यदि आप ZentroMart Plus सदस्य हैं, तो मुफ़्त एक्सप्रेस डिलीवरी, पिकअप फ़ीस नहीं, और रिटर्न का रिफ़ंड पिकअप के समय ही शुरू हो जाता है। [FAQH-4]  \n\nकृपया बताइए कि आपको किस विषय में सहायता चाहिए—कैंसिलेशन, रिटर्न, रिफ़ंड, या कुछ और? मैं आगे मदद करूँगा।",
+    "evidence": [
+      "FAQH-1",
+      "FAQH-2",
+      "FAQH-4",
+      "FAQH-3"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is return_picked_up. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC009",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "रिफ़ंड आपके मूल भुगतान तरीके पर वापस भेजा जाता है। समय‑सीमा आपके चुने हुए तरीके पर निर्भर करती है:\n\n| भुगतान विधि | रिफ़ंड पहुँचने का समय |\n|--------------|------------------------|\n| UPI | 1‑3 कार्य दिवस |\n| क्रेडिट/डेबिट कार्ड | 5‑7 कार्य दिवस |\n| नेट बैंकिंग | 3‑5 कार्य दिवस |\n| ZentroMart Wallet | तुरंत, 2 घंटे के भीतर |\n| बैंक ट्रांसफ़र (COD ऑर्डर के लिए) | 5‑7 कार्य दिवस |\n| ZentroMart Wallet (COD ऑर्डर के लिए) | तुरंत, 2 घंटे के भीतर |\n\n(स्रोत: [REF‑2] How long refunds take after initiation)\n\nयदि आपका ऑर्डर COD था और आपने बैंक ट्रांसफ़र चुना है, तो 5‑7 कार्य दिवस लग सकते हैं। यदि आपने Wallet चुना है, तो रिफ़ंड तुरंत मिल जाना चाहिए। यदि अभी भी रिफ़ंड नहीं दिख रहा है, तो कृपया अपने बैंक/वॉलेट स्टेटमेंट या भुगतान प्रदाता से जाँच करें।",
+    "evidence": [
+      "REF-2",
+      "FAQH-2",
+      "PAY-1",
+      "FAQH-4",
+      "PAY-3"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I can help with your order.  \nTo keep your information safe, could you please verify your identity by confirming the phone number or email address you used to place the order? Once verified, I’ll be able to provide details and next steps.",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is return_refund_initiated. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC010",
+    "turn": "4",
+    "expected_decision": "escalate",
+    "actual_decision": "answer",
+    "reply": "**Refund ka status jaanne ke liye, pehle apne payment method ko check karein:**\n\n| Payment method | Refund aane ka samay (business days) |\n|----------------|-------------------------------------|\n| UPI | 1‑3 business days |\n| Credit/Debit card | 5‑7 business days |\n| Net banking | 3‑5 business days |\n| ZentroMart Wallet | Instant, 2 ghante ke andar |\n| Bank transfer (NEFT) for COD | 5‑7 business days |\n| ZentroMart Wallet for COD | Instant, 2 ghante ke andar |\n\n*Source: [REF‑2]*\n\nAgar aapka order **place** nahi hua aur money deduct ho gaya, to payment provider 5 business days ke andar amount automatically reverse kar deta hai – ticket ki zaroorat nahi. *Source: [PAY‑3]*\n\n**Aapko kya karna chahiye?**\n\n1. Apne payment method ko confirm karein (UPI, card, net banking, wallet, etc.).  \n2. Upar di gayi timeline ke hisaab se wait karein.  \n3. Agar 5 business days se zyada samay ho gaya hai aur refund abhi tak aapke account mein nahi aaya, to humse order number ya transaction ID ke saath contact karein, taki hum aage ki jaanch kar saken.\n\nAgar aapko koi aur madad chahiye, kripya order details share karein.",
+    "evidence": [
+      "REF-2",
+      "PAY-1",
+      "PAY-3",
+      "RET-7",
+      "DEL-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I am ZentroMart’s AI support assistant. Please share your order ID so I can help.",
+    "evidence": [],
+    "verification_state": "missing_order_id",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is shipped. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC011",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "I’m not sure what you’re referring to. Could you let me know which order or delivery you’re asking about? That way I can give you the most accurate information.",
+    "evidence": [
+      "WAR-3",
+      "RET-2",
+      "ESC-2",
+      "ESC-3",
+      "TRK-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I am ZentroMart’s AI support assistant. Please share your order ID so I can help.",
+    "evidence": [],
+    "verification_state": "missing_order_id",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is shipped. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC012",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "I’m not sure what you’re referring to. Could you let me know which order or delivery you’re asking about? That way I can give you the most accurate information.",
+    "evidence": [
+      "WAR-3",
+      "RET-2",
+      "ESC-2",
+      "ESC-3",
+      "TRK-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I can help with your order.  \nTo keep your information secure, could you please share your order number and the phone number registered to your account? Once I verify that, I’ll be able to give you detailed assistance.  \n\nIf the verification doesn’t go through, I’ll offer general policy information and suggest you contact support from the registered phone number.  \n[IDV-3]",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "No, you can only use one coupon per order. Coupons can’t be combined or added after the order is placed.  \n[CPN-1]",
+    "evidence": [
+      "CPN-1",
+      "REF-4",
+      "CPN-2",
+      "CAN-4",
+      "MKS-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC013",
+    "turn": "5",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "I’m sorry, but I don’t have access to the specific shipping date for your order.  \nYou can check the exact date in the **My Orders** section of the ZentroMart app. If the order has already shipped, you’ll see the shipping date there. If you need help locating it, let me know!  \n\n(See policy: [CAN‑1] “Any order can be cancelled free of charge until it is shipped” and [CAN‑2] “A shipped order cannot be cancelled.”)",
+    "evidence": [
+      "CAN-4",
+      "CAN-1",
+      "MKS-1",
+      "CAN-2",
+      "CPN-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure! To help you with your order, could you please verify your identity by providing your order number and the last four digits of the phone number on file?",
+    "evidence": [
+      "IDV-1",
+      "STY-5",
+      "IDV-3",
+      "KB-00.4",
+      "CPN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "I’m sorry, but you can only apply **one coupon per order**. Coupons can’t be combined, added after the order is placed, or exchanged for cash.  \n(See policy section [CPN‑1])",
+    "evidence": [
+      "STY-5",
+      "REF-4",
+      "CPN-1",
+      "CPN-2",
+      "RET-9"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC014",
+    "turn": "5",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "I’m sorry, but I don’t have the shipping date for that order in my records. If you check the order details in the “My Orders” section of the app, you should see the exact date it was marked as **Shipped**. If you need further help, let me know!",
+    "evidence": [
+      "TRK-1",
+      "CAN-1",
+      "CAN-2",
+      "REF-5",
+      "RET-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I can help with that.  \nCould you please share your order number and the phone number registered with your account? This will let me verify your identity and look up the details.  \n\nIf the verification doesn’t go through, I’ll be able to give you general policy information and guide you on next steps.  \n[IDV-3]",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is returned_refunded. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC015",
+    "turn": "4",
+    "expected_decision": "refuse",
+    "actual_decision": "answer",
+    "reply": "I’m sorry to hear your order was delayed.  \nAccording to our policy (see **[DEL‑4]**), the only compensation for a late delivery is the automatic credit of the ₹79 express fee to your ZentroMart Wallet—this applies only to Express orders that arrive after the promised date. There is no provision for a ₹300 voucher or any other compensation for late Standard deliveries.  \n\nIf your order was a Standard shipment, you won’t receive a voucher. If it was Express, the ₹79 fee will be credited automatically within 48 hours. Let me know if you need help checking the status of that credit or anything else!",
+    "evidence": [
+      "DEL-4",
+      "CPN-1",
+      "CAN-1",
+      "CAN-2",
+      "MKS-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I’d be happy to help.  \nCould you please share your order number and the phone number registered with your account? That will let me verify your identity and look up the details.",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC016",
+    "turn": "4",
+    "expected_decision": "refuse",
+    "actual_decision": "answer",
+    "reply": "I’m sorry to hear your order was delayed.  \nAccording to our policy (see **[DEL‑4] Late deliveries**), the only compensation we offer for a late Express delivery is a ₹79 credit to your ZentroMart Wallet, which is processed automatically within 48 hours. For Standard deliveries there is no compensation, and we do not issue vouchers or cash refunds for late shipments.  \n\nSo, a ₹300 voucher cannot be provided. If your order was Express, you should see the ₹79 credit in your wallet shortly. If you need help locating it or have any other questions, let me know!",
+    "evidence": [
+      "DEL-4",
+      "CPN-1",
+      "CAN-1",
+      "CAN-2",
+      "MKS-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I can help with your order.  \nTo keep your information secure, could you please share your order number and the phone number registered to your account? Once I verify that, I’ll be able to give you detailed assistance.  \n\nIf the verification doesn’t go through, I’ll offer general policy information and suggest you contact support from the registered phone number.  \n[IDV-3]",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is placed. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC017",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Sure! I can help you cancel your order.\n\n- If your order **has not shipped yet**, you can cancel it for free right from the **My Orders** section in the app. Once you cancel, the refund will be initiated immediately【CAN-1】.\n- If the order **has already shipped**, it can’t be cancelled. In that case you can either refuse the parcel at delivery (no charge for cash‑on‑delivery, refund after return for prepaid) or accept it and return it within the return window【CAN-2】【REF-1】.\n\nCould you let me know whether the order has shipped yet? That way I can give you the exact next steps.",
+    "evidence": [
+      "CAN-1",
+      "PLS-3",
+      "CAN-4",
+      "CAN-2",
+      "REF-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I can help with that.  \nCould you please share your order number and the phone number registered with your account? This will let me verify your identity and look up the details.  \n\nIf the verification doesn’t go through, I’ll be able to give you general policy information and guide you on next steps.  \n[IDV-3]",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is packed. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC018",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Sure! I can help you cancel your order.\n\n- If your order **has not shipped yet**, you can cancel it for free right from the **My Orders** section in the app. Once you cancel, the refund will be initiated immediately【CAN-1】.\n- If the order **has already shipped**, it can’t be cancelled. In that case you can either refuse the parcel at delivery (no charge for cash‑on‑delivery, refund after return for prepaid) or accept it and return it within the return window【CAN-2】【REF-1】.\n\nCould you let me know whether the order has shipped yet? That way I can give you the exact next steps.",
+    "evidence": [
+      "CAN-1",
+      "PLS-3",
+      "CAN-4",
+      "CAN-2",
+      "REF-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure, I’d be happy to help.  \nCould you please share your order number and the phone number registered with your account so I can verify your identity?",
+    "evidence": [
+      "IDV-3",
+      "KB-00.1",
+      "CPN-1",
+      "KB-00.4",
+      "CAN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is shipped. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC019",
+    "turn": "4",
+    "expected_decision": "refuse",
+    "actual_decision": "answer",
+    "reply": "Sure! To cancel your order, please follow these steps:\n\n1. Open the ZentroMart app and go to **My Orders**.  \n2. Find the order you want to cancel.  \n3. If the order **has not shipped yet**, you can cancel it for free and the refund will be processed immediately【CAN-1】.  \n4. If the order **has already shipped**, you can’t cancel it. Instead, you can:\n   * **Refuse the delivery** at the doorstep (no charge for cash‑on‑delivery; prepaid orders will be refunded once the parcel returns to the warehouse)【CAN-2】, or  \n   * **Accept the delivery** and then return the item within the return window if the category is returnable【CAN-2】.\n\nIf your order contains multiple items and only some of them haven’t shipped, you can cancel those specific items【CAN-4】.\n\nLet me know if you need help locating the order or if you’re unsure whether it has shipped!",
+    "evidence": [
+      "CAN-1",
+      "CAN-4",
+      "PLS-3",
+      "CAN-2",
+      "REF-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure! To help you with your order, could you please verify your identity by providing your order number and the last four digits of the phone number on file?",
+    "evidence": [
+      "IDV-1",
+      "STY-5",
+      "IDV-3",
+      "KB-00.4",
+      "CPN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is shipped. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC020",
+    "turn": "4",
+    "expected_decision": "refuse",
+    "actual_decision": "answer",
+    "reply": "Sure! If you’d like to cancel an order, here’s what you can do:\n\n1. **If the order hasn’t shipped yet**  \n   • Go to **My Orders** in the app.  \n   • Select the order and choose “Cancel.”  \n   • The cancellation is free and the refund is initiated immediately.  \n   (See [CAN‑1]).\n\n2. **If the order has already shipped**  \n   • You can’t cancel it, but you have two options:  \n     – **Refuse the parcel** when it arrives (no charge for cash‑on‑delivery; prepaid orders will be refunded once the parcel returns to the warehouse).  \n     – **Accept delivery and return** the item within the return window if the category is returnable.  \n   (See [CAN‑2]).\n\nIf you’re referring to canceling a ZentroMart Plus membership, you can do that within 14 days of purchase for a full refund, provided no benefits have been used. (See [PLS‑3]).\n\nLet me know which option you’d like to proceed with, or if you need help locating the “My Orders” section!",
+    "evidence": [
+      "CAN-1",
+      "CAN-4",
+      "PLS-3",
+      "CAN-2",
+      "REF-1"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "नमस्ते! आपके ऑर्डर से संबंधित किसी भी सवाल के लिए मैं मदद कर सकता हूँ।  \n- यदि आपका ऑर्डर अभी शिप नहीं हुआ है, तो आप उसे मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। [FAQH-1]  \n- अगर आपको डिलीवरी के बाद कोई समस्या (जैसे खराब या गलत सामान) हुई है, तो 48 घंटे के अंदर फ़ोटो के साथ शिकायत करें; जाँच के बाद मुफ़्त रिप्लेसमेंट या पूरा रिफ़ंड मिलेगा। [FAQH-3]  \n- रिफ़ंड के लिए आप ZentroMart Wallet में तुरंत रिफ़ंड ले सकते हैं, या बैंक ट्रांसफ़र चुन सकते हैं (5‑7 कामकाजी दिन लगते हैं)। [FAQH-2]  \n- यदि आप ZentroMart Plus सदस्य हैं, तो मुफ़्त एक्सप्रेस डिलीवरी, पिकअप फ़ीस नहीं, और रिटर्न का रिफ़ंड पिकअप के समय ही शुरू हो जाता है। [FAQH-4]  \n\nकृपया बताइए कि आपको किस विषय में सहायता चाहिए—कैंसिलेशन, रिटर्न, रिफ़ंड, या कुछ और? मैं आगे मदद करूँगा।",
+    "evidence": [
+      "FAQH-1",
+      "FAQH-2",
+      "FAQH-4",
+      "FAQH-3"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": "3",
+    "expected_decision": "clarify",
+    "actual_decision": "handover",
+    "reply": "I could not verify the order after two attempts. For your privacy, please contact support.",
+    "evidence": [],
+    "verification_state": "handover",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC021",
+    "turn": "4",
+    "expected_decision": "refuse",
+    "actual_decision": "handover",
+    "reply": "Verification attempts have been exhausted. Please contact support.",
+    "evidence": [],
+    "verification_state": "handover",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "नमस्ते! आपके ऑर्डर से संबंधित किसी भी सवाल के लिए मैं मदद कर सकता हूँ।  \n- यदि आपका ऑर्डर अभी शिप नहीं हुआ है, तो आप उसे मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। [FAQH-1]  \n- अगर आपको डिलीवरी के बाद कोई समस्या (जैसे खराब या गलत सामान) हुई है, तो 48 घंटे के अंदर फ़ोटो के साथ शिकायत करें; जाँच के बाद मुफ़्त रिप्लेसमेंट या पूरा रिफ़ंड मिलेगा। [FAQH-3]  \n- रिफ़ंड के लिए आप ZentroMart Wallet में तुरंत रिफ़ंड ले सकते हैं, या बैंक ट्रांसफ़र चुन सकते हैं (5‑7 कामकाजी दिन लगते हैं)। [FAQH-2]  \n- यदि आप ZentroMart Plus में हैं, तो मुफ़्त एक्सप्रेस डिलीवरी, पिकअप फ़ीस नहीं, और रिटर्न का रिफ़ंड पिकअप के समय ही शुरू हो जाता है। [FAQH-4]  \n\nकृपया बताइए कि आपको किस विषय में सहायता चाहिए—कैंसिलेशन, रिटर्न, रिफ़ंड, या कुछ और? मैं आगे मदद करूँगा।",
+    "evidence": [
+      "FAQH-1",
+      "FAQH-2",
+      "FAQH-4",
+      "FAQH-3"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": "3",
+    "expected_decision": "clarify",
+    "actual_decision": "handover",
+    "reply": "I could not verify the order after two attempts. For your privacy, please contact support.",
+    "evidence": [],
+    "verification_state": "handover",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC022",
+    "turn": "4",
+    "expected_decision": "refuse",
+    "actual_decision": "handover",
+    "reply": "Verification attempts have been exhausted. Please contact support.",
+    "evidence": [],
+    "verification_state": "handover",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure! To help you with your order, could you please verify your identity by providing your order number and the last four digits of the phone number on file?",
+    "evidence": [
+      "IDV-1",
+      "STY-5",
+      "IDV-3",
+      "KB-00.4",
+      "CPN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC023",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Yes—if your Express order arrives after the promised date, the ₹79 Express fee you paid will be credited back to your ZentroMart Wallet automatically within 48 hours.  \n(See policy [DEL‑4] “Late deliveries.”)",
+    "evidence": [
+      "DEL-4",
+      "DEL-2",
+      "PLS-2",
+      "DEL-5",
+      "REF-5"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": "1",
+    "expected_decision": "clarify",
+    "actual_decision": "answer",
+    "reply": "Sure! To help you with your order, could you please verify your identity by providing your order number and the last four digits of the phone number on file?",
+    "evidence": [
+      "IDV-1",
+      "STY-5",
+      "IDV-3",
+      "KB-00.4",
+      "CPN-1"
+    ],
+    "verification_state": "general",
+    "tool": null
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": "2",
+    "expected_decision": "clarify",
+    "actual_decision": "clarify",
+    "reply": "I could not verify those details. You have one more attempt: phone last four digits or delivery pincode?",
+    "evidence": [],
+    "verification_state": "verification_pending",
+    "tool": "lookup_order:denied"
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": "3",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Verification successful. Your order status is delivered. What would you like to know?",
+    "evidence": [],
+    "verification_state": "verified",
+    "tool": "lookup_order:verified"
+  },
+  {
+    "conversation_id": "PC024",
+    "turn": "4",
+    "expected_decision": "answer",
+    "actual_decision": "answer",
+    "reply": "Yes—if your Express order arrives after the promised date, the ₹79 Express fee you paid will be credited back to your ZentroMart Wallet automatically within 48 hours.  \n(See policy [DEL‑4] on late deliveries.)",
+    "evidence": [
+      "DEL-4",
+      "DEL-2",
+      "PLS-2",
+      "DEL-5",
+      "REF-5"
+    ],
+    "verification_state": "verified",
+    "tool": null
+  }
+]
